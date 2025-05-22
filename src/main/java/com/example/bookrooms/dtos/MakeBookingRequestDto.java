@@ -3,7 +3,9 @@ package com.example.bookrooms.dtos;
 import java.util.Map;
 
 public class MakeBookingRequestDto {
+    // user id of customer
     private long userId;
+    // room id , no Of such room booked
     private Map<Long, Integer> bookedRooms;
 
     public long getUserId() {
